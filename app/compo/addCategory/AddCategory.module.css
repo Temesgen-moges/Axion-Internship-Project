@@ -1,0 +1,93 @@
+ @media (max-width: 991.98px){
+.pageWrapper {
+    margin: 0;
+}
+}
+
+ .pageWrapper {
+    position: relative;
+     left: 0;
+    margin: 0;
+    padding-top: 60px;
+     min-height: 738px;
+     font-size: large;
+} 
+
+
+.pageHeader {
+border-bottom-style : solid;
+flex-grow: 1; 
+margin: 20px,5px,10px,10px;
+padding:0 ;
+background-color: rgb(242, 235, 241);
+
+}
+
+.pageTitle h4, .pageTitle h6 {
+    text-align:left;
+    margin-bottom: 0.5rem; 
+  }
+
+.pageHeader h4 {
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(33 43 54 / var(--tw-text-opacity))
+    
+}
+
+.pageHeader h6 {
+    line-height: 1rem;
+}
+
+@media (max-width: 991.98px){
+.pageWrapper {
+    margin: 0;
+}
+}
+
+.pageWrapper {
+    position: relative;
+    left: 0;
+    margin-left: 260px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-right: 0;
+    padding-bottom: 0 !important;
+} 
+
+
+.card {
+    position: relative;
+    display: flex;
+    min-width: max-content;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: rgba(49, 35, 35, 0.125);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-clip: border-box;
+    margin: 10px;
+    --tw-border-opacity: 1;
+    padding: 15px;
+}
+
+@media (max-width: 991.98px) {
+.pageWrapper .content {
+    padding: 15px;
+}
+}
+
+@media (max-width: 639.98px){
+.pageHeader {
+    margin-bottom: 1.25rem;
+    flex-direction: column;
+}}
+
+@media (max-width: 639.98px) {
+.pageHeader .pageTitle {
+    text-align: center;
+}}  
